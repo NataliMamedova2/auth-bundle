@@ -1,0 +1,24 @@
+{
+  "name": "myauth/auth",
+  "description": "JWT token authorization for  services",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mamedova Nataliia",
+      "email": "mamed.nata@gmail.com"
+    }
+  ],
+  "require": {
+    "lexik/jwt-authentication-bundle": "^2.4",
+    "lcobucci/jwt": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyAuth\\Auth\\": "src/"
+    }
+  }
+}
